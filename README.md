@@ -17,7 +17,7 @@ Datafeeder is just a simple JAVA program to feed large amount of data in databas
 > Creating database connection is very costly so connection is created only one time while program starts.
 > Creating and destroying threads are costly if we need threads to do n number of task.
 > So thread pool concept is used, it will just create n number of thread and after a thread finishes it work it will just wait in pool for new task, so we can use that thread for  n number task.
-
+> To read large file in JAVA use java.nio package 
 
 ## Installation
 
